@@ -1,20 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Welcome to Vue</title>
-  <script src="https://unpkg.com/vue"></script>
+  <title>SimonFM</title>
+  <script src="https://unpkg.com/vue@3/dist/vue.global.js"></script>
 </head>
 <body>
   <div id="app">
-    <img src="https://vuejs.org/images/logo.png" alt="Vue logo">
-    <h1>/{{ greeting }}</h1>
+    <h1>{{ message }}</h1>
   </div>
-
-  <script>
+  <script type="application/javascript">
     var app = new Vue({
       el: '#app',
       data: {
-        greeting: 'Hello World'
+        message: 'Hello World'
       },
       methods: {
       }
